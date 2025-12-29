@@ -212,14 +212,17 @@ python scripts/download_weights.py
 
 ### **Human Detection**
 <img width="800" height="800" alt="t1 huamsn" src="https://github.com/user-attachments/assets/c3c40404-48f6-4c1a-bef0-f38fb9d9ea8e" />
+
 *Person detected at 150m in complete darkness - Confidence: 96.3%*
 
 ### **Vehicle Detection**
 <img width="979" height="331" alt="t2 car" src="https://github.com/user-attachments/assets/be38bf4a-49b2-4aa3-9f70-b57fa806ab13" />
+
 *Car identified through heavy fog at 300m - Confidence: 97.8%*
 
 ### **Animal Detection**
 <img width="900" height="536" alt="t3 animal" src="https://github.com/user-attachments/assets/c3588128-af4b-4067-a4c2-1b8e09af08e1" />
+
 *Wildlife detected at 100m during night patrol - Confidence: 94.2%*
 
 ---
