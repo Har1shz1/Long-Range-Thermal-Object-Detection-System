@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-Compatible-red.svg)
 
-The project was initially developed during the IIC National Hackathon 2022 in my second semester and was subsequently extended and refined as part of Engineering Clinic-I in my fourth semester.
+The system was initially prototyped on Raspberry Pi 2 hardware during the IIC National Hackathon 2022 in my second semester and was subsequently extended and the platform was upgraded to Raspberry Pi 4  part of Engineering Clinic-I in my fourth semester.
 ---
 
 ## 🎯 Overview
