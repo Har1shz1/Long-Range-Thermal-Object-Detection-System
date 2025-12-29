@@ -8,12 +8,8 @@
 ![TFLite](https://img.shields.io/badge/TFLite-2.12+-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-Compatible-red.svg)
---
-Development Timeline:
---
-**Phase 1 (Hackathon):** Raspberry Pi 2 prototype validating core detection concepts
-**Phase 2 (Engineering Clinic):** Raspberry Pi 4 upgrade enabling production-ready deployment with full feature implementation
 
+The system underwent two major development phases. Initially prototyped on Raspberry Pi 2 hardware during the IIC National Hackathon 2022 (second semester), it demonstrated proof-of-concept viability. Subsequently, during Engineering Clinic-I (fourth semester), the platform was upgraded to Raspberry Pi 4, enabling enhanced real-time capabilities and full feature deployment.
 ---
 
 ## 🎖️ Overview
