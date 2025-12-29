@@ -1,5 +1,5 @@
 
-# 🔥 Long-Range Thermal Object Detection System
+# 🎯  Long-Range Thermal Object Detection System
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-red.svg)
@@ -12,7 +12,7 @@
 The system was initially prototyped on Raspberry Pi 2 hardware during the IIC National Hackathon 2022 in my second semester and was subsequently extended and the platform was upgraded to Raspberry Pi 4  part of Engineering Clinic-I in my fourth semester.
 ---
 
-## 🎯 Overview
+## 🎖️ Overview
 The Long-Range Thermal Object Detection System is an end-to-end AI-powered surveillance and situational awareness platform designed for low-visibility environments such as night-time, fog, smoke, and adverse weather conditions. It integrates thermal imaging, deep learning, and edge deployment to provide real-time detection and voice-based alerts for humans, animals (cats, dogs, and etc), vehicles and many more.
 **Military-Grade Detection:** Designed for defense applications with 95.2% accuracy in complete darkness
 
