@@ -16,6 +16,31 @@ The system underwent two major development phases. Initially prototyped on Raspb
 The Long-Range Thermal Object Detection System is an end-to-end AI-powered surveillance and situational awareness platform designed for low-visibility environments such as night-time, fog, smoke, and adverse weather conditions. It integrates thermal imaging, deep learning, and edge deployment to provide real-time detection and voice-based alerts for humans, animals (cats, dogs, and etc), vehicles and many more.
 **Military-Grade Detection:** Designed for defense applications with 95.2% accuracy in complete darkness
 
+## 🛡️ Military & Defense Applications
+
+### 1. 🎯 **Perimeter & Border Security**
+- **24/7 Surveillance**: All-weather, day/night border monitoring without visible lighting
+- **Camouflage Penetration**: Detect personnel through foliage, ghillie suits, and natural cover
+- **Vehicle Detection**: Early warning for approaching vehicles beyond visual range
+- **False Alarm Reduction**: Intelligent discrimination between humans, animals, and environmental clutter
+
+### 2. ⚔️ **Combat & Tactical Operations**
+- **Night Operations**: Complete situational awareness in zero-light conditions
+- **Ambush Detection**: Identify concealed positions and hidden threats
+- **Obscurant Penetration**: Track movements through smoke, fog, and light precipitation
+- **Combat Identification**: Enhanced IFF (Identification Friend or Foe) capabilities
+
+### 3. 🚨 **Search & Rescue Missions**
+- **Personnel Recovery**: Locate missing individuals in dense forests and mountainous terrain
+- **Disaster Response**: Detect survivors in collapsed structures and rubble
+- **Firefighting Support**: See through smoke in urban fire and wildfire scenarios
+- **Wildlife Operations**: Animal detection for conservation and rescue missions
+
+### 4. 🏢 **Military Base Protection**
+- **Automated Perimeter Defense**: Continuous monitoring of installation boundaries
+- **Intrusion Detection**: Real-time alerts for unauthorized approaches
+- **Incident Documentation**: Automated logging with thermal video evidence
+- **Remote Operation**: Low-power design suitable for forward operating bases
 ---
 
 ### 🔬 Prototype Hardware Setup
