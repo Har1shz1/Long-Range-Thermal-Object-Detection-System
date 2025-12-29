@@ -143,10 +143,6 @@ thermal-object-detection/
 ├── .gitignore
 ├── LICENSE
 ├── data/
-│   ├── raw_thermal/
-│   │   ├── images/
-│   │   └── annotations/
-│   ├── processed/
 │   └── dataset.yaml
 ├── notebooks/
 │   ├── 01_dataset_exploration.ipynb
@@ -175,8 +171,6 @@ thermal-object-detection/
 │       └── logger.py
 ├── configs/
 │   ├── training_config.yaml
-│   ├── inference_config.yaml
-│   └── deployment_config.yaml
 └── examples/
     ├── sample_thermal_images/
     ├── demo_videos/
