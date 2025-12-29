@@ -9,12 +9,12 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-Compatible-red.svg)
 
-This project was initially developed during the IIC National Hackathon and was subsequently extended and refined as part of Engineering Clinic-I in my fourth semester.
+The project was initially developed during the IIC National Hackathon 2022 in my second semester and was subsequently extended and refined as part of Engineering Clinic-I in my fourth semester.
 ---
 
 ## 🎯 Overview
 The **Long-Range Thermal Object Detection System** is an end-to-end **AI-powered surveillance and situational awareness platform** designed for **low-visibility environments** such as night-time, fog, smoke, and adverse weather conditions.  
-It integrates **thermal imaging, deep learning, and edge deployment** to provide **real-time detection and voice-based alerts** for humans, animals, and vehicles.
+It integrates **thermal imaging, deep learning, and edge deployment** to provide **real-time detection and voice-based alerts** for humans, animals (cats, dogs, and etc), vehicles and many more.
 
 ---
 
