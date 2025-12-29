@@ -280,7 +280,10 @@ python scripts/download_weights.py
 **Engineering Clinic-I** for development resources
 
 ## 📜 License
-This project is licensed under the MIT License 
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Copyright © 2024. All rights reserved.**
 
 
 ---
