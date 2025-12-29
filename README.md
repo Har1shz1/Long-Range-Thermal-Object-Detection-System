@@ -275,9 +275,9 @@ python scripts/download_weights.py
 
 ---
 ## 🙏 Acknowledgments
-**IIC National Hackathon 2022** for initial prototyping support
+**IIC National Hackathon 2022** for initial prototyping support.
 
-**Engineering Clinic-I** for development resources
+**Engineering Clinic-I** for development resources.
 
 ## 📜 License
 
