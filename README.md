@@ -224,7 +224,7 @@ python scripts/download_weights.py
 
 **Outcome:** IIC National Hackathon participation
 
-### **Phase 2: System Development (Jan-May 2023)
+### Phase 2: System Development (Jan-May 2023)
 **Duration:** 4 months
 
 **Hardware:** Raspberry Pi 4 + FLIR camera
@@ -233,7 +233,7 @@ python scripts/download_weights.py
 
 **Outcome:** Engineering Clinic-I project completion
 
-### **Phase 3: Optimization & Deployment (Jul-Aug 2024)
+### Phase 3: Optimization & Deployment (Jul-Aug 2024)
 **Duration:** 2 months
 
 **Focus:** Model optimization, field testing
