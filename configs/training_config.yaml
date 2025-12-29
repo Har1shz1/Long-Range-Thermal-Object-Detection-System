@@ -1,0 +1,92 @@
+# YOLOv5 Training Configuration for Thermal Images
+
+# Model configuration
+model:
+  architecture: yolov5s
+  pretrained: true
+  freeze_backbone: false
+  input_channels: 3
+  num_classes: 3
+
+# Training parameters
+training:
+  epochs: 100
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0005
+  momentum: 0.937
+  warmup_epochs: 3
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  box_loss_gain: 0.05
+  cls_loss_gain: 0.5
+  obj_loss_gain: 1.0
+  label_smoothing: 0.0
+
+# Data configuration
+data:
+  dataset_path: data/dataset.yaml
+  image_size: 640
+  augmentations:
+    hsv_h: 0.015
+    hsv_s: 0.7
+    hsv_v: 0.4
+    degrees: 0.0
+    translate: 0.1
+    scale: 0.5
+    shear: 0.0
+    perspective: 0.0
+    flipud: 0.0
+    fliplr: 0.5
+    mosaic: 1.0
+    mixup: 0.0
+
+# Optimization
+optimization:
+  optimizer: AdamW
+  scheduler: CosineAnnealing
+  amp: true  # Automatic Mixed Precision
+  gradient_clipping: 10.0
+  accumulate_gradients: 1
+
+# Validation
+validation:
+  frequency: 1  # Validate every N epochs
+  iou_threshold: 0.6
+  conf_threshold: 0.001
+  max_detections: 300
+  save_json: false
+  save_plots: true
+
+# Checkpointing
+checkpoint:
+  save_frequency: 10
+  save_best: true
+  save_last: true
+  resume_from: null
+
+# Logging
+logging:
+  wandb: false
+  tensorboard: true
+  comet_ml: false
+  log_interval: 10
+
+# Hardware
+hardware:
+  device: cuda  # or cpu
+  workers: 8
+  pin_memory: true
+
+# Early stopping
+early_stopping:
+  enabled: true
+  patience: 50
+  min_delta: 0.001
+
+# Output
+output:
+  project: runs/train
+  name: thermal_yolov5
+  exist_ok: false
+  save_dir: models/trained_weights
