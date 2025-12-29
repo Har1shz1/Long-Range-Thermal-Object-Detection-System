@@ -35,30 +35,8 @@ The Long-Range Thermal Object Detection System is an end-to-end AI-powered surve
 ---
 ---
 ## 🏗️ System Architectur
+<img width="3350" height="2550" alt="system design" src="https://github.com/user-attachments/assets/43bf7ea7-774a-437d-b504-85601b8479a4" />
 
-graph TB
-    A[FLIR Thermal Camera] --> B[Raspberry Pi 4]
-    B --> C[Image Preprocessing]
-    C --> D[YOLOv5 Model]
-    D --> E[Object Detection]
-    E --> F{Voice Alert System}
-    E --> G[Visual Display]
-    E --> H[Data Logging]
-    
-    subgraph "Detection Classes"
-        I[Human]
-        J[Animal]
-        K[Vehicle]
-    end
-    
-    D --> I
-    D --> J
-    D --> K
-    
-    style A fill:#FF6B6B
-    style B fill:#4ECDC4
-    style D fill:#45B7D1
-    style F fill:#FFEAA7
 ---
 
 ## 📊 Performance Metrics
@@ -74,11 +52,6 @@ graph TB
 | **Model Size (TFLite)** | 14.2 MB | Optimized for edge deployment |
 | **Classes** | 3 | Human, Vehicle, Animal |
 | **Input Resolution** | 320×320 | Balanced speed/accuracy |
-
-## 🏗️ System Architecture
-```
-[FLIR Thermal Camera] → [Raspberry Pi] → [YOLOv5 Inference] → [Voice Alerts]
-```
 
 ---
 
