@@ -43,13 +43,51 @@ It integrates **thermal imaging, deep learning, and edge deployment** to provide
 
 ## 📁 Project Structure
 ```
-Thermal-Object-Detection/
-├── data/
-├── src/
-├── models/
-├── docs/
+thermal-object-detection/
+├── README.md
 ├── requirements.txt
-└── README.md
+├── setup.py
+├── .gitignore
+├── LICENSE
+├── data/
+│   ├── raw_thermal/
+│   │   ├── images/
+│   │   └── annotations/
+│   ├── processed/
+│   └── dataset.yaml
+├── notebooks/
+│   ├── 01_dataset_exploration.ipynb
+│   ├── 02_preprocessing_pipeline.ipynb
+│   └── 03_model_training.ipynb
+├── src/
+│   ├── data_preprocessing/
+│   │   ├── thermal_preprocessor.py
+│   │   ├── data_augmentation.py
+│   │   └── dataset_splitter.py
+│   ├── training/
+│   │   ├── train_yolo.py
+│   │   ├── hyperparameter_tuning.py
+│   │   └── evaluate_model.py
+│   ├── inference/
+│   │   ├── realtime_inference.py
+│   │   ├── tflite_converter.py
+│   │   └── video_processor.py
+│   ├── deployment/
+│   │   ├── raspberry_pi_setup.py
+│   │   ├── voice_alert_system.py
+│   │   └── camera_interface.py
+│   └── utils/
+│       ├── visualization.py
+│       ├── metrics.py
+│       └── logger.py
+├── configs/
+│   ├── training_config.yaml
+│   ├── inference_config.yaml
+│   └── deployment_config.yaml
+└── examples/
+    ├── sample_thermal_images/
+    ├── demo_videos/
+    └── output_results/
 ```
 
 ---
