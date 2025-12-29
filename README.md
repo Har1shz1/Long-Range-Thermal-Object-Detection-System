@@ -9,6 +9,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-Compatible-red.svg)
 
+This project was initially developed during the IIC National Hackathon and was subsequently extended and refined as part of Engineering Clinic-I in my fourth semester.
 ---
 
 ## 🎯 Overview
