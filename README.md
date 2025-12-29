@@ -231,20 +231,29 @@ python scripts/download_weights.py
 
 ### **Phase 1: Research & Prototyping (Aug-Dec 2022)**
 **Duration:** 3 months
+
 **Hardware:** Raspberry Pi 2 + Modified webcam
+
 **Achievements:** Proof-of-concept validation
+
 **Outcome:** IIC National Hackathon participation
 
 ### **Phase 2: System Development (2023)
 **Duration:** 4 months
+
 **Hardware:** Raspberry Pi 4 + FLIR camera
+
 **Achievements:** Real-time implementation
+
 **Outcome:** Engineering Clinic-I project completion
 
 ### **Phase 3: Optimization & Deployment (2024)
 **Duration:** 2 months
+
 **Focus:** Model optimization, field testing
+
 **Achievements:** 95.2% accuracy, production readiness
+
 **Status:** Ready for deployment
 
 
