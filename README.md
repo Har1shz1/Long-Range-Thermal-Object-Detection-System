@@ -195,11 +195,6 @@ python src/deployment/raspberry_pi_setup.py \
 ---
 
 ## 🚀 Quick Start
-### **Installation**
-# Clone repository
-git clone https://github.com/yourusername/thermal-object-detection.git
-cd thermal-object-detection
-
 # Install dependencies
 pip install -r requirements.txt
 
@@ -290,6 +285,7 @@ python scripts/download_weights.py
 ---
 ## 🙏 Acknowledgments
 **IIC National Hackathon 2022** for initial prototyping support
+
 **Engineering Clinic-I** for development resources
 
 ## 📜 License
