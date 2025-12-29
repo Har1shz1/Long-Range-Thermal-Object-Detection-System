@@ -1,0 +1,47 @@
+# Dataset configuration for thermal object detection
+
+# Paths
+path: ../data/processed
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 3
+
+# Class names
+names: 
+  0: human
+  1: animal
+  2: vehicle
+
+# Dataset statistics
+statistics:
+  total_images: 2500
+  train_images: 1750
+  val_images: 500
+  test_images: 250
+  class_distribution:
+    human: 45%
+    animal: 30%
+    vehicle: 25%
+
+# Image properties
+image_properties:
+  width: 640
+  height: 640
+  channels: 3
+  bit_depth: 8
+  format: jpg
+
+# Annotation format
+annotation_format: pascal_voc
+
+# Augmentation settings (optional)
+augmentation:
+  enabled: true
+  techniques:
+    - horizontal_flip
+    - random_rotate
+    - brightness_contrast
+    - gaussian_noise
