@@ -35,6 +35,7 @@ The Long-Range Thermal Object Detection System is an end-to-end AI-powered surve
 ---
 ---
 ## 🏗️ System Architectur
+
 graph TB
     A[FLIR Thermal Camera] --> B[Raspberry Pi 4]
     B --> C[Image Preprocessing]
