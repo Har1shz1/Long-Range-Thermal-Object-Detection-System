@@ -1,5 +1,5 @@
 # 🎯 Long-Range Thermal Object Detection System
-
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-red.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.7+-green.svg)
