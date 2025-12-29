@@ -17,6 +17,9 @@ The **Long-Range Thermal Object Detection System** is an end-to-end **AI-powered
 It integrates **thermal imaging, deep learning, and edge deployment** to provide **real-time detection and voice-based alerts** for humans, animals (cats, dogs, and etc), vehicles and many more.
 Military-Grade Detection: Designed for defense applications with 95.2% accuracy in complete darkness
 ---
+
+### 🔬 Prototype Hardware Setup
+
 <img width="1536" height="1024" alt="rp-1" src="https://github.com/user-attachments/assets/92e8d2b0-619f-4723-b28d-13920a9e7f08" />
 
 ## 🔧 Technical Details
@@ -141,7 +144,12 @@ thermal-object-detection/
 pip install -r requirements.txt
 python src/inference/realtime_inference.py
 ```
+## 🎥 Live Demo 
 
+### 📹 Working Video Demonstration
+[![Watch Demo Video](https://img.shields.io/badge/Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1YGFaZXEtxB2ZRpKVfEMVeDUM4K6kqQZ0/view?usp=sharing)
+
+*Raspberry Pi 2 with Logitech C270 HD Web Camera*
 ---
 
 ## 📜 License
