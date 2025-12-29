@@ -215,7 +215,7 @@ python scripts/download_weights.py
 
 ## 📈 Development Timeline
 
-### **Phase 1: Research & Prototyping (Aug-Dec 2022)**
+### **Phase 1: Research & Prototyping (Nov-Nov 2022)**
 **Duration:** 3 months
 
 **Hardware:** Raspberry Pi 2 + Modified webcam
@@ -224,7 +224,7 @@ python scripts/download_weights.py
 
 **Outcome:** IIC National Hackathon participation
 
-### **Phase 2: System Development (2023)
+### **Phase 2: System Development (Jan-May 2023)
 **Duration:** 4 months
 
 **Hardware:** Raspberry Pi 4 + FLIR camera
@@ -233,7 +233,7 @@ python scripts/download_weights.py
 
 **Outcome:** Engineering Clinic-I project completion
 
-### **Phase 3: Optimization & Deployment (2024)
+### **Phase 3: Optimization & Deployment (Jul-Aug 2024)
 **Duration:** 2 months
 
 **Focus:** Model optimization, field testing
