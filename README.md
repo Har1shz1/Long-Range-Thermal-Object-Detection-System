@@ -8,6 +8,14 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-Compatible-red.svg)
 
+## 🎥 Live Demo 
+
+### 📹 Working Video Demonstration
+[![Watch Demo Video](https://img.shields.io/badge/Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1YGFaZXEtxB2ZRpKVfEMVeDUM4K6kqQZ0/view?usp=sharing)
+
+*Raspberry Pi 2 with Logitech C270 HD Web Camera*
+---
+
 ## 🎯 Project Overview
 
 An end-to-end thermal object detection system that **sees through darkness, fog, and smoke** using AI-powered thermal imaging. Originally prototyped on Raspberry Pi 2 during IIC National Hackathon 2022, then upgraded to Raspberry Pi 4 during Engineering Clinic-I for enhanced real-time performance.
