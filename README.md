@@ -1,4 +1,4 @@
-# 🎯  Long-Range Thermal Object Detection System
+# 🎯 Long-Range Thermal Object Detection System
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-red.svg)
@@ -7,8 +7,6 @@
 ![TFLite](https://img.shields.io/badge/TFLite-2.12+-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-Compatible-red.svg)
-
-## 🎥 Live Demo 
 
 ### 📹 Working Video Demonstration
 [![Watch Demo Video](https://img.shields.io/badge/Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1YGFaZXEtxB2ZRpKVfEMVeDUM4K6kqQZ0/view?usp=sharing)
@@ -196,18 +194,32 @@ python src/deployment/raspberry_pi_setup.py \
 
 ---
 
+## 🚀 Quick Start
+### **Installation**
+# Clone repository
+git clone https://github.com/yourusername/thermal-object-detection.git
+cd thermal-object-detection
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download pre-trained models
+python scripts/download_weights.py
+
+---
+
 ## 🎥 Sample Detection Results
 
 ### **Human Detection**
-![Human Detection](https://via.placeholder.com/600x400/2D3748/FFFFFF?text=Human+Detected+at+150m+Complete+Darkness)
+<img width="800" height="800" alt="t1 huamsn" src="https://github.com/user-attachments/assets/c3c40404-48f6-4c1a-bef0-f38fb9d9ea8e" />
 *Person detected at 150m in complete darkness - Confidence: 96.3%*
 
 ### **Vehicle Detection**
-![Vehicle Detection](https://via.placeholder.com/600x400/4A5568/FFFFFF?text=Vehicle+Through+Heavy+Fog+at+300m)
+<img width="979" height="331" alt="t2 car" src="https://github.com/user-attachments/assets/be38bf4a-49b2-4aa3-9f70-b57fa806ab13" />
 *Car identified through heavy fog at 300m - Confidence: 97.8%*
 
 ### **Animal Detection**
-![Animal Detection](https://via.placeholder.com/600x400/2C5282/FFFFFF?text=Wildlife+Detected+at+100m+Night+Patrol)
+<img width="900" height="536" alt="t3 animal" src="https://github.com/user-attachments/assets/c3588128-af4b-4067-a4c2-1b8e09af08e1" />
 *Wildlife detected at 100m during night patrol - Confidence: 94.2%*
 
 ---
@@ -263,4 +275,13 @@ python src/deployment/raspberry_pi_setup.py \
 - **Modular components** for easy maintenance and upgrades
 - **Automatic recovery** from power interruptions and system errors
 
+---
+## 🙏 Acknowledgments
+**IIC National Hackathon 2022** for initial prototyping support
+**Engineering Clinic-I** for development resources
 
+## 📜 License
+This project is licensed under the MIT License 
+
+
+---
