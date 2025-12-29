@@ -171,10 +171,7 @@ thermal-object-detection/
 │       └── logger.py
 ├── configs/
 │   ├── training_config.yaml
-└── examples/
-    ├── sample_thermal_images/
-    ├── demo_videos/
-    └── output_results/
+
 ```
 # Deploy on Raspberry Pi
 # Setup hardware
